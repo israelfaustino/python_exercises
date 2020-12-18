@@ -23,7 +23,7 @@ for i in range(size):
 
 # rearrange the random numbers in ascending order
 for a in range(0,size,1):
-	for b in range(a + 1,len(vec),1):
+	for b in range(a + 1,size,1):
 		#print (vec[a])
 		if vec[a] > vec[b]:
 			temp = vec[a]
